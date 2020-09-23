@@ -72,4 +72,8 @@ build.xml 样例
 </project>
 
 myReportTask 为重新封装的方法 
-主要提供 jenkins 参数化驱动，及日志报告输出
+主要提供 jenkins 参数化驱动及日志报告输出
+jenkins ant 参数样例
+ant -Djmeter.script.dir="脚本路径" -Djmeter.run.user="执行人" -DreportName="报告名称（后端）" -DreportUrl="报告weburl" -DreportFileName="报告名称（前端）"
+
+
